@@ -1,0 +1,96 @@
+header{
+  width: 100%;
+  background :#C24A0A;
+  color: #fff;
+  text-align: center;
+  padding: 1%;
+  margin: 0;
+}
+.button1{
+  font-weight: 550;
+  display: block;
+  background:#C24A0A;
+  color: #fff;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: auto;
+  border: 1px solid #C24A0A;
+  border-radius: 5px;
+}
+.button2{
+  font-weight: 550;
+  width:100%;
+  display: block;
+  background:#C24A0A;
+  color: #fff;
+  padding: 2%;
+  margin-top: 2%;
+/*  margin-left: auto;*/
+  border: 1px solid #C24A0A;
+  border-radius: 5px;
+}
+.parent{
+  width:800px;
+  margin:1% auto;
+  background: #fff;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.parent>div{
+  width: 33.3%;
+  text-align: center;
+  padding: 1%;
+  box-shadow: 3px 3px 3px #ddd;
+}
+img{
+  width: 200px;
+  height: auto;
+}
+h4{
+  color: #8D8481;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+
+  .parent{
+    width:100%;
+    margin:1% auto;
+    background: #fff;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .parent>div{
+    width: 98%;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 3px 3px 3px #ddd;
+  }
+  *{
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1599px){
+
+  .parent{
+    width:100%;
+    margin:1% auto;
+    background: #fff;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .parent>div{
+    width: 47%;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 3px 3px 3px #ddd;
+  }
+  *{
+    font-size: 25px;
+  }
+}
